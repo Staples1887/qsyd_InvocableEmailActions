@@ -20,9 +20,9 @@ public with sharing class qsyd_InvocableEmailBaseTest {
 
 
 
-    private static final String CASE_EXAMPLE = '5004P00000XFXikQAH';
-    private static final String EMAIL_EXAMPLE = '02s4P00000hQIpzQAG';
-    private static final String ORGWIDEEMAILADDRESS_EXAMPLE = '0D24P000002AHEMSA4';
+    Private Static final String CASE_EXAMPLE = '5006M00001jOgfCQAS';
+    Private Static final String EMAIL_EXAMPLE = '00X6M000002LB6MUAW';
+    Private Static final String ORGWIDEEMAILADDRESS_EXAMPLE = '0D220000000PCb2';
 
 
     @TestSetup
