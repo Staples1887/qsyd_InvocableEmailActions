@@ -18,9 +18,9 @@ public with sharing class qsyd_InvocableEmailTemplateActionTest {
     private static final String CONTACT = 'Contact';
     private static final String USER = 'User';
 
-    private static final String CONTACT_EXAMPLE = '0034P00002PYwXAQA1';
+    Private Static final String CONTACT_EXAMPLE = '0030J00002ThBGcQAN';
 
-    static EmailTemplate emailTemplate;
+    Static EmailTemplate emailTemplate;
 
     @TestSetup
     private static void setupTestData() {
