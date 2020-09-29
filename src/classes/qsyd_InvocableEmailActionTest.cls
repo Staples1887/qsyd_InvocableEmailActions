@@ -17,14 +17,14 @@ public with sharing class qsyd_InvocableEmailActionTest {
     private static final String CONTACT = 'Contact';
     private static final String USER = 'User';
 
-    private static final String CONTACT_EXAMPLE = '0034P00002PYwXAQA1';
-    private static final String CONTENTVERSION_EXAMPLES = '0684P00000ARbLNQA1,0684P00000ARbLIQA1';
-    private static final String CASE_EXAMPLE = '5004P00000XFXikQAH';
-    private static final String EMAIL_EXAMPLE = '02s4P00000lnXqBQAU';
-    private static final String INREPLYTO_EXAMPLE = 'topic/2734@dsalesforce.com';
-    private static final String ORGWIDEEMAILADDRESS_EXAMPLE = '0D24P000002AHEMSA4';
+    Private Static final String CONTACT_EXAMPLE = '0030J00002ThBGcQAN';
+    Private static final String CONTENTVERSION_EXAMPLES = '0684P00000ARbLNQA1,0684P00000ARbLIQA1';
+    Private Static final String CASE_EXAMPLE = '5006M00001jOgfCQAS';
+    Private Static final String EMAIL_EXAMPLE = '00X6M000002LB6MUAW';
+    Private static final String INREPLYTO_EXAMPLE = 'topic/2734@dsalesforce.com';
+    Private Static final String ORGWIDEEMAILADDRESS_EXAMPLE = '0D220000000PCb2';
 
-    static Account testAccount;
+    Static Account testAccount;
 
     @TestSetup
     private static void setupTestData() {
@@ -55,7 +55,7 @@ public with sharing class qsyd_InvocableEmailActionTest {
         param.bodyPlainText = 'Plain text body';
         param.bodyHtml = '<html><body><strong>Rich text body</strong></body></html>';
         param.charSet = 'utf-8';
-        param.attachmentIds = CONTENTVERSION_EXAMPLES;
+        //param.attachmentIds = CONTENTVERSION_EXAMPLES;
         param.whatId = CASE_EXAMPLE;
         param.parentMessageIds = INREPLYTO_EXAMPLE;
         param.orgWideEmailAddress = '';
